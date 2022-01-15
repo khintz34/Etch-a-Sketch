@@ -1,0 +1,175 @@
+.body {
+    margin: 0px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.title {
+    color: black;
+}
+
+.mainContentArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 105px;
+    
+}
+
+
+#container {
+    display: grid;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 480px;
+    width: 480px;
+    box-shadow: 1px 1px 5px #555 inset;
+    background-color: white;
+    cursor: crosshair;
+}
+
+
+.row { display: flex; 
+    font-size: 9.5px; 
+    text-align: center; 
+    color: white;
+    visibility: initial;
+}
+
+.cell { width: 30px; 
+    height: 30px; 
+    margin: 0px; 
+    border: none;}
+
+.sidebar {
+    margin-left: 100px;
+    width: 200px;
+    height: 480px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 1px 1px 5px #555 inset;
+    background-color: white;
+
+}
+
+.options {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.refresh {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #050A30;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #e4dbd9;
+    transition: transform .2s; 
+}
+
+.eraser {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #e4dbd9;
+    transition: transform .2s; 
+}
+
+.schemes {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: #050A30;
+}
+
+.rainbow {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #e4dbd9;
+    transition: transform .2s; 
+}
+
+.grayScale {
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: #e4dbd9;
+    transition: transform .2s; 
+}
+
+.colorChoice {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #050A30;
+}
+
+.colorPicker {
+    height: 30px;
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    transition: transform .2s; 
+}
+
+.countTitle {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.currentSize {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #050A30;
+}
+
+.cellCount {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.footnote {
+    margin-top: auto;
+}
+
+
+.refresh:hover,
+.eraser:hover,
+.rainbow:hover,
+.grayScale:hover,
+.colorPicker:hover {
+    transform: scale(1.1);
+    background-color: rgb(69, 141, 242);
+}
+
+
+button.buttonClass {
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+
